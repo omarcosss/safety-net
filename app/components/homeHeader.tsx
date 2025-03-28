@@ -3,19 +3,19 @@ import { useState, useEffect } from 'react';
 
 
 export default function Header() {
-    const [isScrolled, setIsScrolled] = useState(false);
-  
-    useEffect(() => {
-        const handleScroll = () => {
-        setIsScrolled(window.scrollY > 100);
-        };
+  const [isScrolled, setIsScrolled] = useState(false);
 
-        window.addEventListener('scroll', handleScroll);
-        
-        return () => {
-        window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
+  useEffect(() => {
+      const handleScroll = () => {
+      setIsScrolled(window.scrollY > 100);
+      };
+
+      window.addEventListener('scroll', handleScroll);
+      
+      return () => {
+      window.removeEventListener('scroll', handleScroll);
+      };
+  }, []);
 
   const getMonthName = (monthIndex: number): string => {
     const months = [
@@ -38,7 +38,8 @@ export default function Header() {
       <a href="/">
         <img src="/logo.svg" alt="Logo" className={isScrolled ? 'scrolled logo' : 'logo'} />
       </a>
-      <span className={isScrolled ? 'scrolled' : ''}>{currentDate}</span>
+      <span className={isScrolled ? 'scrolled date' : 'date'}>{currentDate}</span>
+      <span className={isScrolled ? 'scrolled sub' : 'sub'}>Segurança e Bem Estar Digital</span>
     </header>
   );
 }
