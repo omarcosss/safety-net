@@ -1,0 +1,23 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    border-bottom: 1px solid #9BCADE66;
+    background: #FFF;
+    img{
+        height: 32px;
+    }
+    span{
+        font-size: 10px;
+        font-family: "Frank Ruhl Libre", serif;
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}

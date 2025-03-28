@@ -1,15 +1,18 @@
 @import "tailwindcss";
-
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
 @theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
+  --font-sans: "Ubuntu Sans", ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-serif: "Frank Ruhl Libre", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --color-light-blue-transparency: "#9BCADE66"
+  --color-light-blue: "#9BCADE"
+  --color-blue-700: "#005A81"
 }
 
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
-
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
-  }
+  @apply bg-white ;
+  color: #1E1E1E;
 }
+
+
