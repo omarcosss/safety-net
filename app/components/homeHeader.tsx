@@ -34,7 +34,7 @@ export default function Header() {
 
   return (
     <header className={isScrolled ? 'scrolled' : ''}>
-        <img src="/public/bg.svg" alt="" className={isScrolled ? 'scrolled bg' : 'bg'} />
+        <img src="/bg.svg" alt="" className={isScrolled ? 'scrolled bg' : 'bg'} />
       <a href="/">
         <img src="/logo.svg" alt="Logo" className={isScrolled ? 'scrolled logo' : 'logo'} />
       </a>

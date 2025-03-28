@@ -4,7 +4,7 @@ const posts = [
   {
     "id": "1",
     "title": "Pequenos Ajustes no Celular, Grandes Mudanças na Sua Rotina",
-    "image": "/public/images/1.jpg",
+    "image": "/images/1.jpg",
     "content": (
       <div className="post-content">
         <p>O celular pode ser uma ferramenta incrível de produtividade e bem-estar, mas, quando usado sem controle, pode se tornar um grande vilão da nossa rotina. Aqui estão algumas dicas para equilibrar o uso e tornar seu dispositivo um aliado na sua vida diária:</p>
@@ -27,7 +27,7 @@ const posts = [
   {
     "id": "2",
     "title": "Foco e Produtividade: Apps que Podem Transformar Sua Rotina",
-    "image": "/public/images/2.jpg",
+    "image": "/images/2.jpg",
     "content": (
       <>
         <p>React Router helps manage navigation in React apps...</p>
@@ -37,7 +37,7 @@ const posts = [
   {
     "id": "3",
     "title": "Foco e Produtividade: Apps que Podem Transformar Sua Rotina",
-    "image": "/public/images/2.jpg",
+    "image": "/images/2.jpg",
     "content": (
       <>
         <p>React Router helps manage navigation in React apps...</p>
