@@ -37,11 +37,15 @@ export default function Post() {
   return (
     <>
       <Header />
-      <div className="page-content">
+      <div className="page-content max-w-[700px] mx-auto">
         <h1>{post.title}</h1>
-        <img src={post.image} alt=""/>
+        <img src={post.image} alt="" className="post-image"/>
         {post.content}
-        
+        <div className="w-full border-b border-dark-blue opacity-30"></div>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScUFbGk1K2wa1I8fyTHT6q5zSf0_32kMPz3fvVNC4FgQJiD1g/viewform?usp=header" className="bg-dark-blue text-white w-full max-w-96 p-2.5 font-serif flex justify-center gap-2.5 rounded-sm mx-auto">
+          <img src="/feedback.svg" alt="" className="w-6"/>
+          O que está achando? Nos dê um feedback
+        </a>
       </div>
       <Footer/>
     </>

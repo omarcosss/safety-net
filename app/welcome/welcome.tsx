@@ -8,13 +8,13 @@ export function Welcome() {
     const posts = getPosts();
   
   return (
-    <main className="flex flex-col p-4 gap-8 items-center justify-center pt-[190px] pb-0 min-h-dvh">
+    <main className="flex flex-col gap-8 items-center justify-center pt-[190px] md:pt-[260px] pb-0 min-h-dvh">
       <Header/>
-      <div className="flex flex-grow">
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+      <div className="flex flex-grow max-w-[800px] p-4">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 ">
           {posts.map((p, index) => (
               <React.Fragment key={index}>
-                <ArticleCard 
+                <ArticleCard
                   key={p.id}
                   article={p}
                 />

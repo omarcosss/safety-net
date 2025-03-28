@@ -11,6 +11,9 @@ header{
     height: 60px;
     border-bottom: 1px solid #9BCADE66;
     background: #FFF;
+    @media (min-width: 768px) {
+        height: 90px;
+    }
     img{
         position: absolute;
 
@@ -19,7 +22,9 @@ header{
             top: 50%;
             left: 50%;
             transform: translateY(-50%) translateX(-50%);
-
+            @media (min-width: 768px) {
+                height: 60px;
+            }
         }
     }
     span{

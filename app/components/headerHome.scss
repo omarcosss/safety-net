@@ -9,9 +9,14 @@ header{
     transition: all ease .3s;
     overflow: hidden;
     height: 150px;
+    @media (min-width: 768px) {
+        height: 220px;
+    }
     &.scrolled{
         height: 60px;
-
+        @media (min-width: 768px) {
+            height: 90px;
+        }
     }
     border-bottom: 1px solid #9BCADE66;
     background: #FFF;
@@ -19,13 +24,19 @@ header{
         position: absolute;
 
         &.logo{
-            width: 200px;
+            height: 60px;
             top: 50%;
             left: 50%;
             transform: translateY(-50%) translateX(-50%);
-            transition: width ease .3s;
+            transition: height ease .3s;
+            @media (min-width: 768px) {
+                height: 90px;
+            }
             &.scrolled{
-                width: 120px;
+                height: 32px;
+                @media (min-width: 768px) {
+                    height: 60px;
+                }
             }
         }
         &.bg{
