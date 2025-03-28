@@ -1,0 +1,54 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all ease .3s;
+    overflow: hidden;
+    height: 150px;
+    &.scrolled{
+        height: 60px;
+
+    }
+    border-bottom: 1px solid #9BCADE66;
+    background: #FFF;
+    img{
+        position: absolute;
+
+        &.logo{
+            width: 200px;
+            top: 50%;
+            left: 50%;
+            transform: translateY(-50%) translateX(-50%);
+            transition: width ease .3s;
+            &.scrolled{
+                width: 120px;
+            }
+        }
+        &.bg{
+            width: 120dvw;
+            // top: 0;
+            bottom: 40%;
+            left: 0;
+            transition: all ease .3s;
+            &.scrolled{
+                bottom: 100%;
+            }
+        }
+    }
+    span{
+        font-size: 10px;
+        font-family: "Frank Ruhl Libre", serif;
+        position: absolute;
+        top: 20px;
+        right: 15px;
+        transition: all ease .3s;
+        &.scrolled{
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+}

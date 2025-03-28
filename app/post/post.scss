@@ -25,5 +25,7 @@ img{
     margin-top: 60px;
 }
 .post-content{
-    
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
