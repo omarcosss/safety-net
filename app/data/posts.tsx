@@ -141,13 +141,107 @@ const posts = [
   },
   {
     "id": "3",
-    "title": "Foco e Produtividade: Apps que Podem Transformar Sua Rotina",
-    "image": "/images/2.jpg",
+    "title": "Autenticação em Dois Fatores",
+    "image": "/images/3.jpg",
     "content": (
       <>
-        <p>React Router helps manage navigation in React apps...</p>
+        <p>A autenticação em dois fatores surgiu como uma das principais ferramentas de segurança cibernética das últimas décadas. Engana-se quem pensa que é algo recente, o que aconteceu apenas foi a inclusão de verificação em duas etapas em uma maior diversidade de sites e aplicativos que antes contavam apenas com uma etapa, normalmente login e senha apenas, como também serviços de autenticação que reúnem diversos serviços utilizando o mesmo autenticador. O objetivo desta matéria, portanto, é destrinchar de forma simples a segurança digital e os motivos pelos quais apenas uma etapa de verificação não é suficiente para se manter seguro no meio digital.</p>
+        <h2>O que é?</h2>
+        <p>Quando criamos uma conta em algum tipo de serviço digital normalmente cadastramos pelo menos um tipo de autenticação, que seria login e senha. A autenticação em dois fatores, portanto, adiciona uma camada a mais de proteção a fim de verificar a identidade do dono daquela conta, a forma da autenticação pode variar de serviço para serviço, por vezes, o mesmo serviço oferece mais de uma forma de autenticação.</p>
+        <h2>Exemplos mais comuns:</h2>
+        <p>A autenticação em dois fatores pode ser praticamente qualquer coisa, o cartão de crédito é um exemplo clássico que já existia antes mesmo dos smartphones, para realizar operações ou sacar dinheiro em um caixa eletrônico o cliente precisa tanto do cartão, quanto da senha dele, a depender do banco pode ser requisitada a digital ou reconhecimento facial, todos esses mecanismos de segurança são métodos de autenticação, funcionando como uma camada a mais de segurança.</p>
+        <hr />
+        <p>Dessa forma, os métodos de autenticação de serviços online não fogem muito disso, sendo os mais comuns:</p>
+        <ul>
+          <li><strong>Código de confirmação:</strong> É enviado um código para o cliente, o qual expira após um certo tempo limite, esse código pode ser enviado de diferentes formas, como SMS e email;</li>
+          <li><strong>Notificações push:</strong> Nesse método é enviada uma notificação para o próprio usuário, normalmente em um dispositivo que já possua aquela conta logada, em que o usuário precisa apenas apertar um botão para liberar o acesso caso seja ele mesmo tentando fazer login em um dispositivo diferente, caso não seja já fica o alerta de que alguém provavelmente está tentando hackea-lo, possibilitando que mude a senha a tempo de evitar mais ataques;</li>
+          <li><strong>TOTP:</strong> A senha de uso único baseada em tempo consiste basicamente em um código gerado por um algoritmo por um aplicativo de autenticação, a diferença dele para códigos enviados por SMS ou email é que esse código muda constantemente em intervalos de tempo curtos, geralmente 30 ou 60 segundos, o código é gerado sincronizando a hora do servidor com a do seu celular. Aplicativos como Google Authenticator, Authy e Last Pass Authenticator são exemplos de serviços autenticadores que utilizam a tecnologia TOTP para verificar a conta do usuário. É importante ressaltar que para esses aplicativos funcionarem primeiro é necessário realizar uma configuração inicial do serviço que você deseja ativar a autenticação em dois fatores, sendo necessário que esse serviço tenha suporte a isso, informação que normalmente pode ser encontrada nas configurações do aplicativo ou site;</li>
+          <li><strong>Biometria:</strong> Com o avanço da tecnologia dos celulares, a maioria dos smartphones hoje são capazes de realizar leituras biométricas, tanto de digital, quanto de reconhecimento facial, sendo um método bastante utilizado, muitas vezes de forma automática no primeiro login, por aplicativos de banco, como Nubank e o Banco do Brasil, que realizam tanto o reconhecimento facial para associar à sua conta em sua criação, como também uso da digital sempre que o usuário vai entrar no aplicativo, caso o cliente necessite logar no aplicativo em outro dispositivo ou troque de celular, será necessário realizar novamente todas as etapas de autenticação, contando com o reconhecimento facial e a senha do aplicativo já se torna uma autenticação de 3 fatores, o que ressalta o cuidado dos bancos com a segurança digital de seus clientes.</li>
+        </ul>
+        <h2>Problemas de segurança</h2>
+        <p>Muitas pessoas acabam ignorando a ativação da autenticação em duas etapas por achar confuso ou trabalhoso, pois não entendem sua real importância. Uma prática muito comum no meio digital é o uso de senhas fracas, e as vezes pior, o usuário utiliza a mesma senha fraca em vários serviços diferentes. O perigo disso não está em uma pessoa má intencionada roubar sua conta de um aplicativo simples que não contenha dados relevantes, como um jogo de celular, mas no fato de que, como a mesma senha é usada em outros serviços mais importantes, como redes sociais e aplicativos de banco, os hackers costumam testar a mesma senha em outros serviços a fim de descobrir algum aplicativo que possa fornecer informações mais relevantes para ele. A autenticação de dois fatores não é infalível, mas funciona como um método de proteção a mais, que normalmente vai travar o acesso do hacker à sua conta, mesmo que ele consiga quebrar a senha, vai precisar de acesso a outra forma de autenticação que pode contar com um acesso mais específico, dificultando a interceptação desse criminoso.</p>
+        <p>É importante ressaltar que, apesar da autenticação em 2 fatores possuir boa eficácia e evitar roubos de conta, ela não exclui a necessidade de senhas fortes (maior número de caracteres, uso de letras maiúsculas e símbolos), além do uso de senhas diferentes para cada tipo de conta. Muitas pessoas acabam utilizando senhas simples e repetindo essa mesma senha em várias contas por ser mais fácil de lembrar, entretanto, existem ferramentas que auxiliam no gerenciamento de suas senhas de forma segura, no entanto, esse assunto será abordado com mais detalhes em outra matéria sobre senhas seguras.</p>
       </>
     )
+  },
+  {
+    "id": "4",
+    "title": "Segurança de Senhas: Protegendo Seus Dados na Era Digital",
+    "image": "/images/4.jpg",
+    "content": (
+      <>
+        <p>No mundo digital atual, senhas são as chaves que protegem nossas informações pessoais, acadêmicas e financeiras. No entanto, muitos usuários ainda utilizam combinações fracas ou repetidas, facilitando o trabalho de cibercriminosos. Este artigo explora a importância de criar senhas seguras, os riscos associados a práticas inadequadas e estratégias eficazes para fortalecer sua segurança digital.</p>
+        <h2>A importancia de senhas fortes</h2>
+        <p>Senhas robustas são essenciais para impedir acessos não autorizados a contas e sistemas. Um estudo de El Emam et al. (2011) revelou que 93% das senhas utilizadas para proteger informações de saúde em ensaios clínicos foram quebradas com facilidade, indicando a prevalência de senhas fracas mesmo em contextos sensíveis.</p>
+        <p>Além disso, Rass e König (2018) propuseram um modelo baseado na teoria dos jogos para analisar a segurança de senhas, considerando fatores como a facilidade de memorização e a resistência a ataques. O estudo destaca a importância de equilibrar a complexidade da senha com a capacidade do usuário de lembrá-la, visando maximizar a segurança sem comprometer a usabilidade.</p>
+        <h2>Riscos de Senhas Fracas</h2>
+        <p>Utilizar senhas como "123456" ou "senha" é extremamente arriscado. Ataques de autenticação exploram essas fragilidades, permitindo que invasores acessem informações pessoais, financeiras e acadêmicas. Além disso, o uso da mesma senha em múltiplos serviços aumenta o risco de comprometimento em cadeia caso uma delas seja descoberta.</p>
+        <p>Em ambientes de saúde, por exemplo, senhas fracas podem permitir o acesso não autorizado a registros médicos confidenciais, comprometendo a privacidade dos pacientes e a integridade dos dados.</p>
+        <h2>Estratégias para criar senhas seguras</h2>
+        <p>Para fortalecer suas senhas, considere as seguintes práticas:</p>
+        <ul>
+          <li><strong>Comprimento:</strong> Utilize senhas com pelo menos 12 caracteres.</li>
+          <li><strong>Complexidade:</strong> Combine letras maiúsculas e minúsculas, números e símbolos.</li>
+          <li><strong>Imprevisibilidade:</strong> Evite informações pessoais óbvias, como datas de nascimento ou nomes de familiares.</li>
+          <li><strong>Atualização Regular:</strong> Altere suas senhas periodicamente e evite reutilizá-las em diferentes plataformas.</li>
+        </ul>
+        <p>Além disso, a implementação de autenticação multifator (MFA) adiciona uma camada extra de segurança, exigindo uma segunda forma de verificação além da senha. Isso pode incluir códigos enviados por SMS, aplicativos de autenticação ou dados biométricos.</p>
+        <p>A segurança de senhas é um pilar fundamental na proteção de dados pessoais e institucionais. Adotar práticas eficazes na criação e gestão de senhas reduz significativamente o risco de acessos não autorizados e vazamentos de informações. Educação e conscientização sobre o tema são essenciais para fortalecer a segurança digital, especialmente entre os jovens que estão cada vez mais inseridos no ambiente online.</p>
+      </>
+    ),
+    "refs": [
+      {
+        "id": "1",
+        "title": "How Strong are Passwords Used to Protect Personal Health Information in Clinical Trials?",
+        "link": "https://www.jmir.org/2011/1/e18/"
+      },
+      {
+        "id": "2",
+        "title": "Password Security as a Game of Entropies",
+        "link": "https://www.mdpi.com/1099-4300/20/5/312"
+      },
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Tempo de Tela: Impactos e Estratégias para o Uso Consciente da Tecnologia",
+    "image": "/images/5.jpg",
+    "content": (
+      <>
+        <p>Vivemos em uma era digital, onde a presença de dispositivos eletrônicos é constante em nosso cotidiano. Seja para estudar, trabalhar ou se entreter, o uso de telas tornou-se quase inevitável. No entanto, é essencial refletir sobre como o tempo dedicado a esses dispositivos pode influenciar nossa saúde física, mental e social. Este artigo propõe uma análise crítica sobre os efeitos do tempo de tela e apresenta estratégias para um uso mais equilibrado da tecnologia.</p>
+        <h2>O que é o tempo de tela e por que ele importa?</h2>
+        <p>O tempo de tela refere-se ao período em que uma pessoa utiliza dispositivos eletrônicos com tela, como smartphones, computadores, tablets e televisores. Embora essas ferramentas ofereçam inúmeras facilidades, o uso excessivo pode acarretar consequências negativas. Estudos indicam que altos níveis de tempo de tela estão associados a comportamentos sedentários e à diminuição da atividade física entre adolescentes, o que pode impactar negativamente a saúde física e mental.</p>
+        <h2>Problemas associados ao uso excessivo de telas</h2>
+        <p><strong>Saúde Física</strong></p>
+        <p>O uso prolongado de dispositivos eletrônicos pode levar a problemas físicos, como dores musculares, fadiga ocular e alterações posturais. Além disso, o comportamento sedentário associado ao tempo excessivo de tela está relacionado ao aumento do risco de obesidade e doenças cardiovasculares.</p>
+        <p><strong>Saúde Mental</strong></p>
+        <p>O tempo excessivo em frente às telas também pode afetar a saúde mental. Pesquisas apontam uma correlação entre o uso intensivo de mídias digitais e sintomas de ansiedade, depressão e redução da capacidade de atenção, especialmente entre jovens.</p>
+        <p><strong>Desenvolvimento Cognitivo e Social</strong></p>
+        <p>Em crianças e adolescentes, o uso excessivo de telas pode interferir no desenvolvimento da linguagem, habilidades sociais e desempenho acadêmico. A exposição prolongada a conteúdos digitais pode reduzir o tempo dedicado a interações sociais presenciais e atividades cognitivamente estimulantes.</p>
+        <h2>Estratégias para um uso equilibrado da tecnologia</h2>
+        <p>Para mitigar os efeitos negativos do tempo excessivo de tela, é fundamental adotar práticas que promovam um uso mais consciente da tecnologia:</p>
+        <ul>
+          <li><strong>Estabelecer limites de tempo:</strong> Definir períodos específicos para o uso de dispositivos eletrônicos pode ajudar a evitar o uso excessivo.</li>
+          <li><strong>Priorizar atividades físicas e sociais:</strong> Incentivar a prática de exercícios físicos e interações sociais presenciais contribui para o bem-estar geral.</li>
+          <li><strong>Criar ambientes livres de telas:</strong> Reservar momentos e espaços, como durante as refeições e antes de dormir, para desconectar-se dos dispositivos.</li>
+          <li><strong>Utilizar ferramentas de monitoramento:</strong> Aplicativos e configurações dos próprios dispositivos podem auxiliar no controle do tempo de uso.</li>
+        </ul>
+        <p>O tempo de tela, quando não gerenciado adequadamente, pode trazer diversos impactos negativos à saúde física, mental e ao desenvolvimento social. É essencial que indivíduos, famílias e instituições educativas estejam atentos a esses efeitos e promovam práticas que incentivem o uso equilibrado e consciente da tecnologia. Ao adotar estratégias de moderação e promover atividades alternativas, é possível usufruir dos benefícios das ferramentas digitais sem comprometer o bem-estar.</p>
+
+      </>
+    ),
+    "refs": [
+      {
+        "id": "1",
+        "title": "A fábrica de cretinos digitais: Os perigos das telas para nossas crianças",
+        "link": "https://seer.upf.br/index.php/rep/article/download/15723/114118045/15317416"
+      },
+      {
+        "id": "2",
+        "title": "Nível insuficiente de atividade física e elevado tempo de tela em adolescentes: impacto de fatores associados",
+        "link": "https://www.scielo.br/j/csc/a/t8gWcJmJW5xx4cncS8D56FB/?lang=pt"
+      },
+    ]
   }
 ]
 
