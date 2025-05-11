@@ -22,19 +22,7 @@ const posts = [
         <p>Troque o hábito de checar redes sociais antes de dormir por um livro digital ou app de meditação. Apps como One Sec ajudam a repensar o uso impulsivo.</p>
         <p>Seu celular deve trabalhar a seu favor, não contra você. Pequenas mudanças podem fazer uma grande diferença no seu bem-estar digital!</p>
       </div>
-    ),
-    "refs": [
-      {
-        "id": "1",
-        "title": "Como Reduzir o Uso de Celular e Melhorar a Saúde",
-        "description": "Artigo sobre como reduzir o uso de celular e melhorar a saúde."
-      },
-      {
-        "id": "2",
-        "title": "Telas e Sono: Como a Luz Azul Afeta Seu Descanso e o Que Fazer Para Melhorar",
-        "description": "Artigo sobre como a luz azul afeta o sono e como melhorar a qualidade do sono."
-      }
-    ]
+    )
   },
   {
     "id": "2",
@@ -241,6 +229,73 @@ const posts = [
         "title": "Nível insuficiente de atividade física e elevado tempo de tela em adolescentes: impacto de fatores associados",
         "link": "https://www.scielo.br/j/csc/a/t8gWcJmJW5xx4cncS8D56FB/?lang=pt"
       },
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Redes Sociais e o Seu Bem-Estar Digital",
+    "image": "/images/6.jpg",
+    "content": (
+      <>
+        <p>As redes sociais são plataformas essenciais para adolescentes, impactando interação, entretenimento e informação. Ferramentas como WhatsApp, Instagram, TikTok e X(Twitter) mudaram a forma de conexão, mas levantam questões sobre o impacto no bem-estar. A forma como usamos as redes sociais afeta diretamente nosso bem-estar digital, podendo trazer benefícios ou desafios.</p>
+        <h2>Problemas que as Redes Sociais Podem Trazer</h2>
+        <p>Apesar de legais, as redes sociais podem trazer alguns problemas se a gente não tomar cuidado:</p>
+        <ul>
+          <li><strong>Ansiedade e Tristeza:</strong> Passar tempo demais nas redes pode aumentar a ansiedade e a tristeza. Um estudo mostrou que adolescentes que usam redes sociais por mais de 3 horas por dia têm o dobro do risco de ter problemas de saúde mental, como depressão e ansiedade. Ver a vida "perfeita" dos outros (que nem sempre é real) pode fazer a gente se sentir mal ou com medo de estar perdendo alguma coisa (o tal do FOMO - Fear of Missing Out).</li>
+          <li><strong>Problemas com a Autoestima e Imagem Corporal:</strong> É fácil se comparar com as fotos e vídeos que vemos online. Muitas vezes, essas imagens são editadas ou mostram uma realidade que não é bem assim. Quase metade dos adolescentes (46%) diz que as redes sociais os fazem sentir pior sobre sua própria imagem. Isso pode abalar a autoestima e até levar a preocupações excessivas com o corpo.</li>
+          <li><strong>Cyberbullying:</strong> Infelizmente, as redes sociais também podem ser usadas para o cyberbullying (quando alguém usa a internet para intimidar, humilhar ou ameaçar outra pessoa). O Brasil, inclusive, está entre os países com altos índices desse problema. Ser vítima de cyberbullying pode causar muita tristeza, medo e ansiedade.</li>
+          <li><strong>Sono ruim:</strong> Ficar no celular até tarde, rolando o feed, pode atrapalhar muito o sono. A luz da tela e o conteúdo agitado nos deixam mais alertas e dificultam pegar no sono. Dormir mal afeta o humor, a concentração na escola e a saúde em geral.</li>
+          <li><strong>Distração e Procrastinação:</strong> Com tanta coisa acontecendo online, é fácil se distrair dos estudos e de outras tarefas importantes. As notificações constantes e a vontade de checar as novidades podem nos levar a adiar o que realmente precisamos fazer.</li>
+        </ul>
+        <h2>Como Usar as Redes Sociais de Forma Mais Saudável?</h2>
+        <ul>
+          <li><strong>Pense no Seu Tempo Online:</strong> Tente perceber quanto tempo você gasta nas redes. Celulares têm ferramentas que mostram isso (como "Bem-Estar Digital" no Android ou "Tempo de Uso" no iOS). Defina limites de tempo para os apps que mais te distraem.</li>
+          <li><strong>Crie Zonas Livres de Celular:</strong> Que tal deixar o celular de lado durante as refeições ou antes de dormir? Isso ajuda a conversar mais com sua família e a ter uma noite de sono melhor.</li>
+          <li><strong>Desative Notificações Desnecessárias:</strong> Menos alertas piscando na tela significam menos interrupções e menos vontade de checar o celular toda hora.</li>
+          <li><strong>Escolha o que Você Vê:</strong> Siga perfis que te inspirem, te ensinem coisas legais ou te façam rir. Deixe de seguir ou silencie contas que te deixam para baixo.</li>
+          <li><strong>Lembre-se: Nem tudo é real:</strong> As pessoas geralmente mostram só a parte boa da vida nas redes. Não compare seus bastidores com o palco dos outros.</li>
+          <li><strong>Converse Sobre isso:</strong> Se algo nas redes te incomodar ou te deixar triste, converse com seus pais, amigos ou um adulto de confiança.</li>
+          <li><strong>Faça um "Detox Digital" de Vez em Quando:</strong> Experimente ficar um tempo desconectado (algumas horas, um dia, o fim de semana). Use esse tempo para fazer outras coisas que você gosta offline, como praticar um esporte, ler um livro ou sair com amigos.</li>
+        </ul>
+        <p>As redes sociais são ferramentas incríveis, mas, como tudo na vida, é preciso equilíbrio. Ao entender os possíveis impactos e usar algumas estratégias simples, você pode aproveitar o melhor do mundo digital sem deixar que ele afete seu bem-estar. O segredo é usar a tecnologia de forma consciente e a seu favor!</p>
+      </>
+    ),
+    "refs": [
+      {
+        "id": "1",
+        "title": "Social Media and Youth Mental Health: The US Surgeon General's Advisory",
+        "link": "https://www.hhs.gov/sites/default/files/sg-youth-mental-health-social-media-advisory.pdf"
+      },
+      {
+        "id": "2",
+        "title": "Bem Estar Digital. Gov.br",
+        "link": "https://www.gov.br/secom/pt-br/assuntos/uso-de-telas-por-criancas-e-adolescentes/guia/capitulos/bem-estar-digital"
+      },
+      {
+        "id": "3",
+        "title": "Bem-estar digital: entenda o que é e como pode ajudar no seu cotidiano",
+        "link": "https://vidasaudavel.einstein.br/bem-estar-digital/"
+      },
+      {
+        "id": "4",
+        "title": "Cyberbullying as a Contemporary Human Rights Violation of Youth in Digital Media: A Study of India, Brazil, and South Africa",
+        "link": "https://digitalcommons.wcl.american.edu/cgi/viewcontent.cgi?article=2181&context=auilr"
+      },
+      {
+        "id": "5",
+        "title": "How Social Media Affects Your Teen’s Mental Health: A Parent’s Guide > News > Yale Medicine",
+        "link": "https://www.yalemedicine.org/news/social-media-teen-mental-health-a-parents-guide"
+      },
+      {
+        "id": "6",
+        "title": "(PDF) The Impact of Social Media Use on Digital Well-being of University Students",
+        "link": "https://www.researchgate.net/publication/379083084_The_Impact_of_Social_Media_Use_on_Digital_Well-being_of_University_Students"
+      },
+      {
+        "id": "7",
+        "title": "Social Media: Definition, Importance, Top Websites, and Apps",
+        "link": "https://www.investopedia.com/terms/s/social-media.asp"
+      }
     ]
   }
 ]
