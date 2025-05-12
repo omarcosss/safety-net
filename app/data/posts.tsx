@@ -1,28 +1,76 @@
 import React from "react";
 
 const posts = [
+  // {
+  //   "id": "1",
+  //   "title": "Pequenos Ajustes no Celular, Grandes Mudanças na Sua Rotina",
+  //   "image": "/images/1.jpg",
+  //   "content": (
+  //     <div className="post-content">
+  //       <p>O celular pode ser uma ferramenta incrível de produtividade e bem-estar, mas, quando usado sem controle, pode se tornar um grande vilão da nossa rotina. Aqui estão algumas dicas para equilibrar o uso e tornar seu dispositivo um aliado na sua vida diária:</p>
+  //       <h2>1. Controle as Notificações</h2>
+  //       <p>Desative notificações desnecessárias para evitar distrações constantes. No iOS, vá em Ajustes → Notificações e no Android, em Configurações → Apps e notificações. Priorize apenas o essencial!</p>
+  //       <h2>2. Use o Modo "Não Perturbe"</h2>
+  //       <p>Configure horários específicos para evitar interrupções, especialmente antes de dormir e durante momentos de foco.</p>
+  //       <h2>3. Organize a Tela Inicial</h2>
+  //       <p>Deixe na tela principal apenas os apps que ajudam na sua rotina (calendário, notas, produtividade). Redes sociais e entretenimento podem ficar em pastas separadas para reduzir o uso impulsivo.</p>
+  //       <h2>4. Monitore Seu Tempo de Tela</h2>
+  //       <p>No iPhone, o Screen Time (Tempo de Uso) e no Android, o Bem-estar Digital ajudam a visualizar e limitar o tempo gasto em cada app.</p>
+  //       <h2>5. Adote o "Modo Preto & Branco"</h2>
+  //       <p>Ativar essa configuração reduz o apelo visual dos apps e pode diminuir o uso compulsivo. Teste e veja a diferença!</p>
+  //       <h2>6. Substitua Hábitos Digitais por Alternativas</h2>
+  //       <p>Troque o hábito de checar redes sociais antes de dormir por um livro digital ou app de meditação. Apps como One Sec ajudam a repensar o uso impulsivo.</p>
+  //       <p>Seu celular deve trabalhar a seu favor, não contra você. Pequenas mudanças podem fazer uma grande diferença no seu bem-estar digital!</p>
+  //     </div>
+  //   )
+  // },
   {
     "id": "1",
-    "title": "Pequenos Ajustes no Celular, Grandes Mudanças na Sua Rotina",
+    "title": "Phishing: como se proteger de golpes digitais",
     "image": "/images/1.jpg",
     "content": (
       <div className="post-content">
-        <p>O celular pode ser uma ferramenta incrível de produtividade e bem-estar, mas, quando usado sem controle, pode se tornar um grande vilão da nossa rotina. Aqui estão algumas dicas para equilibrar o uso e tornar seu dispositivo um aliado na sua vida diária:</p>
-        <h2>1. Controle as Notificações</h2>
-        <p>Desative notificações desnecessárias para evitar distrações constantes. No iOS, vá em Ajustes → Notificações e no Android, em Configurações → Apps e notificações. Priorize apenas o essencial!</p>
-        <h2>2. Use o Modo "Não Perturbe"</h2>
-        <p>Configure horários específicos para evitar interrupções, especialmente antes de dormir e durante momentos de foco.</p>
-        <h2>3. Organize a Tela Inicial</h2>
-        <p>Deixe na tela principal apenas os apps que ajudam na sua rotina (calendário, notas, produtividade). Redes sociais e entretenimento podem ficar em pastas separadas para reduzir o uso impulsivo.</p>
-        <h2>4. Monitore Seu Tempo de Tela</h2>
-        <p>No iPhone, o Screen Time (Tempo de Uso) e no Android, o Bem-estar Digital ajudam a visualizar e limitar o tempo gasto em cada app.</p>
-        <h2>5. Adote o "Modo Preto & Branco"</h2>
-        <p>Ativar essa configuração reduz o apelo visual dos apps e pode diminuir o uso compulsivo. Teste e veja a diferença!</p>
-        <h2>6. Substitua Hábitos Digitais por Alternativas</h2>
-        <p>Troque o hábito de checar redes sociais antes de dormir por um livro digital ou app de meditação. Apps como One Sec ajudam a repensar o uso impulsivo.</p>
-        <p>Seu celular deve trabalhar a seu favor, não contra você. Pequenas mudanças podem fazer uma grande diferença no seu bem-estar digital!</p>
+        <p>Com o aumento do uso das redes sociais, mensagens instantâneas e plataformas digitais, também aumentaram as tentativas de golpe que tentam enganar as pessoas para roubar informações pessoais. Uma das mais comuns é o phishing, uma técnica de fraude que se disfarça de mensagem legítima para te convencer a clicar em links suspeitos ou fornecer dados como senhas, CPF ou códigos de verificação. Embora muita gente pense que isso só acontece por e-mail e SMS, os golpistas estão cada vez mais criativos — e os sites que mais frequentamos também podem pedir um pouco de cautela.</p>
+        <h2>O que é o Phishing e como ele funciona?</h2>
+        <p>O termo <i>phishing</i> vem da palavra inglesa “fishing” (pescar) — e é exatamente isso que os golpistas fazem: lançam iscas na forma de mensagens falsas para ver quem “morde o anzol”. Essas mensagens podem parecer uma promoção imperdível, uma notificação de entrega, um link para “ver quem visitou seu perfil” ou até uma mensagem de um amigo pedindo ajuda. Quando você clica ou responde, pode acabar entregando informações sensíveis ou permitindo que os criminosos acessem sua conta.</p>
+        <h2>Onde os golpes estão aparecendo hoje?</h2>
+        <ul>
+          <li><strong>Páginas de login falsas:</strong> muitos golpes criam cópias quase idênticas de páginas de login de redes sociais, jogos online ou serviços de streaming. Você recebe um link por mensagem ou e-mail e, ao tentar “entrar”, acaba entregando sua senha para os criminosos. Sempre confira o endereço do site (URL) e evite clicar em links desconhecidos.</li>
+          <li><strong>WhatsApp e Instagram:</strong> mensagens de amigos com pedidos de Pix, links de supostas promoções ou códigos de verificação dizendo “manda esse código pra mim rapidinho”. Muitas vezes a conta de alguém que você confia pode ter sido hackeada ou clonada.</li>
+          <li><strong>E-mail e SMS:</strong> continuam sendo usados, muitas vezes fingindo ser bancos, lojas ou operadoras. As mensagens costumam ter um tom de urgência, como “sua conta será bloqueada” ou “última chance para receber um brinde”.</li>
+        </ul>
+        <h2>Dicas para se proteger do phishing</h2>
+        <p>Desconfie de mensagens com links e urgência. Se parecer bom demais pra ser verdade, provavelmente é golpe.</p>
+        <p>Nunca envie códigos de verificação recebidos por SMS ou WhatsApp. Eles são usados para roubar sua conta.</p>
+        <p>Ative a verificação em duas etapas nas redes sociais e apps que você usa. Isso dificulta o acesso mesmo que roubem sua senha.</p>
+        <p>Antes de clicar em um link, observe com atenção: sites falsos geralmente têm endereços estranhos ou com erros de digitação.</p>
+        <p>Fale com a pessoa por outro meio. Se um amigo te pedir dinheiro por mensagem, tente ligar antes para confirmar.</p>
+        <hr />
+        <p>O phishing é uma ameaça real e está cada vez mais presente no nosso dia a dia digital — principalmente em redes sociais e apps que usamos o tempo todo. Conhecer as estratégias dos golpistas e adotar hábitos simples de segurança pode evitar prejuízos sérios, como perda de contas, dados vazados ou até golpes financeiros. Estar atento é uma forma de cuidar de si mesmo e da sua presença online.</p>
       </div>
-    )
+    ),
+    "refs": [
+      {
+        "id": "1",
+        "title": "Dicas de Segurança | Proteja-se de golpes e fraudes | TIM",
+        "link": "https://www.tim.com.br/sobre-a-tim/institucional/seguranca/dicas-de-seguranca"
+      },
+      {
+        "id": "2",
+        "title": "Phishing em 2025: o que mudou e como se proteger - HSC Labs",
+        "link": "https://hsclabs.com/pt-br/phishing-2025/"
+      },
+      {
+        "id": "3",
+        "title": "Proteção contra ameaças digitais em 2025: fraudes, golpes e segurança online",
+        "link": "https://www.brazabank.com.br/conteudo/protecao-ameacas-digitais-2025-fraudes-golpes-seguranca/"
+      },
+      {
+        "id": "4",
+        "title": "Principais tendências em cibersegurança para 2025",
+        "link": "https://www.techbiz.com.br/principais-tendencias-em-ciberseguranca-para-2025"
+      },
+    ]
   },
   {
     "id": "2",
