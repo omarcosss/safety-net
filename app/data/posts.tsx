@@ -199,6 +199,34 @@ const posts = [
         <p>É importante ressaltar que, apesar da autenticação em 2 fatores possuir boa eficácia e evitar roubos de conta, ela não exclui a necessidade de senhas fortes (maior número de caracteres, uso de letras maiúsculas e símbolos), além do uso de senhas diferentes para cada tipo de conta. Muitas pessoas acabam utilizando senhas simples e repetindo essa mesma senha em várias contas por ser mais fácil de lembrar, entretanto, existem ferramentas que auxiliam no gerenciamento de suas senhas de forma segura, no entanto, esse assunto será abordado com mais detalhes em outra matéria sobre senhas seguras.</p>
       </>
     )
+    ,
+    "refs": [
+      {
+        "id": "1",
+        "title": "Eficiência e efetividade de métodos de autenticação em duas etapas: Uma revisão bibliográfica",
+        "link": "https://revistaft.com.br/eficiencia-e-efetividade-de-metodos-de-autenticacao-em-duas-etapas-uma-revisao-bibliografica/"
+      },
+      {
+        "id": "2",
+        "title": "Autenticação de dois fatores: O que é e para que serve o recurso",
+        "link": "https://www.techtudo.com.br/noticias/2021/08/autenticacao-de-dois-fatores-o-que-e-e-para-que-serve-o-recurso.ghtml"
+      },
+      {
+        "id": "3",
+        "title": "Autenticação de dois fatores (2FA): O que é, como usar e por que é importante",
+        "link": "https://br.clear.sale/blog/conheca-a-autenticacao-de-dois-fatores"
+      },
+      {
+        "id": "4",
+        "title": "Autenticação de dois fatores (2FA): O que é, como usar e por que é importanteo que é uma senha de uso único baseada em tempo (Totp)?",
+        "link": "https://www-descope-com.translate.goog/learn/post/totp?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=sge&_x_tr_hist=true"
+      },
+      {
+        "id": "5",
+        "title": "O que é autenticação de dois fatores e por que ela é importante",
+        "link": "https://manuais.ifsertaope.edu.br/books/segurança-da-informação/page/o-que-é-autenticação-de-dois-fatores-e-por-que-ela-é-importante"
+      },
+    ]
   },
   {
     "id": "4",
@@ -344,6 +372,66 @@ const posts = [
         "title": "Social Media: Definition, Importance, Top Websites, and Apps",
         "link": "https://www.investopedia.com/terms/s/social-media.asp"
       }
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Organização Pessoal: Aplicativos Para Ajudar Na Sua Rotina",
+    "image": "/images/7.jpg",
+    "content": (
+      <>
+        <p>Não é segredo que, com a nossa vida cada vez mais acelerada, a sobrecarga mental se tornou uma experiência quase universal. Além das preocupações do dia a dia — como obrigações escolares, emprego ou estudo para o vestibular — somos expostos a uma quantidade gigantesca de informação a todo momento. A mente humana não foi feita para lidar com tantas tarefas e distrações ao mesmo tempo. Mas o que muitas vezes deixamos de perceber é que o celular que nos distrai também pode ser uma ferramenta poderosa para organização e bem-estar. Neste post, vamos explorar dois aplicativos que ajudam a tirar suas preocupações da cabeça e colocá-las em um lugar seguro — diminuindo a ansiedade e ajudando você a focar no presente.</p>
+        <h2>Google Agenda: Veja seu dia tomando forma
+        <img src="/images/inner/7-1.png" alt="Visão de blocos do Google Agenda" className="inner-image"/>
+        </h2>
+        <p>Presente em praticamente todo celular Android, o Google Agenda oferece as funções básicas de qualquer calendário: criar eventos e tarefas, adicionar descrições, locais e notificações. Mas seu grande diferencial é a visualização diária ou semanal em blocos coloridos, que mostra seus compromissos distribuídos ao longo do tempo. Você pode arrastar e redimensionar esses blocos facilmente, o que torna a organização mais intuitiva. Visualizar seu dia dessa forma pode ser libertador para quem se sente sobrecarregado ou quer criar uma rotina com mais equilíbrio.</p>
+        <ul>
+          <li><strong>Como usar a visão de blocos:</strong> No celular, aperte no botão no canto superior esquerdo da tela para abrir o menu lateral. Nele, selecione entre as opções “Dia”, “3 dias” e “Semana”, dependendo de quanta informação quer ver de uma vez. A partir daí você deve ver a grade de horários do seu dia. Clicando no espaço entre uma hora e outra você pode facilmente criar um evento ou tarefa naquele intervalo de tempo e ajustá-lo como necessário.</li>          
+        </ul>
+        <h2>Todoist: Organize tarefas com inteligência
+        <img src="/images/inner/7-2.png" alt="Visão de tarefas do Todoist" className="inner-image"/>
+        </h2>
+        <p>O Todoist é um aplicativo de listas de tarefas que se destaca pela simplicidade e pelo poder de personalização. Com ele, você pode criar tarefas únicas ou recorrentes, organizá-las por prioridade e até agrupá-las por etiquetas (tags) e projetos. É uma ferramenta excelente para quem gosta de quebrar grandes metas em passos menores e quer ver seu progresso ao longo dos dias.</p>
+        <ul>
+          <li><strong>Personalizar tarefas com uma frase:</strong> Uma das funções mais práticas do Todoist é o uso de palavras-chave na hora de digitar suas tarefas. Por exemplo, escrever “Estudar biologia toda terça às 19h #vestibular !p1” cria uma tarefa recorrente às terças-feiras às 19h, com a tag “vestibular” e prioridade 1 (urgente). Além disso, o Todoist oferece uma visão diária e semanal com contadores de tarefas pendentes, ajudando você a manter o foco e perceber sua evolução ao longo do tempo.</li>          
+        </ul>
+        <h2>Notion: Um caderno digital do seu jeito
+        <img src="/images/inner/7-3.png" alt="Exemplo de caderno no Notion" className="inner-image"/>
+        </h2>
+        <p>Se você gosta de personalizar e ter tudo em um só lugar, o Notion pode ser a ferramenta ideal. Ele funciona como um caderno digital inteligente, onde você pode criar páginas para organizar seus estudos, anotar ideias, montar um cronograma de provas ou fazer listas de leitura. Diferente de outros aplicativos, o Notion não tem um formato fixo — você pode montar tabelas, listas de tarefas, calendários, ou até combinar tudo em uma mesma página.</p>
+        <ul>
+          <li><strong>Dicas para usar o Notion nos estudos:</strong> Uma forma simples de começar é criando uma página chamada “Rotina de Estudos”, onde você pode incluir um calendário com suas provas, uma lista de tarefas da semana e um espaço para anotações rápidas. Também é possível adicionar “checklists” para acompanhar sua evolução ou usar blocos de texto para registrar resumos e mapas mentais. Com o tempo, o Notion pode virar um verdadeiro hub da sua vida escolar, ajudando você a manter foco e clareza sem depender de mil papéis ou apps espalhados.</li>          
+        </ul>
+        <hr />
+        <p>Aplicativos como o Google Agenda e o Todoist são mais do que simples ferramentas de produtividade: eles ajudam a aliviar o peso mental de ter que lembrar de tudo o tempo todo. Externalizar sua rotina, distribuir suas tarefas no tempo e acompanhar seu progresso podem trazer mais leveza para o seu dia e mais clareza para suas decisões. Testar essas ferramentas e adaptá-las à sua realidade pode ser o primeiro passo para uma rotina mais equilibrada e saudável.</p>
+      </>
+    ),
+    "refs": [
+      {
+        "id": "1",
+        "title": "Como uso o Todoist para organizar minha rotina (e manter a sanidade)",
+        "link": "https://www.linkedin.com/pulse/como-uso-o-todoist-para-organizar-minha-rotina-e-marinho-almeida-k2jff/"
+      },
+      {
+        "id": "2",
+        "title": "Dicas para gerenciar seu tempo no Google Agenda",
+        "link": "https://support.google.com/a/users/answer/9282964?hl=pt-BR"
+      },
+      {
+        "id": "3",
+        "title": "Adicione ou gerencie múltiplas tarefas no Todoist",
+        "link": "https://www.todoist.com/pt-BR/help/articles/add-or-manage-multiple-tasks-in-todoist-PcPoskdUp"
+      },
+      {
+        "id": "4",
+        "title": "Modelos para Organização de aprendizagem do Notion",
+        "link": "https://www.notion.com/pt/templates/category/learning"
+      },
+      {
+        "id": "5",
+        "title": "Google Calendar vs Todoist",
+        "link": "https://www.getapp.com.br/compare/91461/102437/google-calendar/vs/todoist-for-business"
+      },
     ]
   }
 ]
