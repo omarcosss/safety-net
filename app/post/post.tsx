@@ -43,7 +43,7 @@ export default function Post() {
         {post.content}
         <div className="w-full border-b border-dark-blue opacity-30"></div>
         <div className="flex flex-col">
-          <div className="font-serif text-sm">Referências:</div>
+          <div className="font-serif text-sm">Leituras Sugeridas:</div>
           <div className="flex flex-col text-sm font-sans font-light italic px-4">
             <ul>
               {post.refs?.map((ref) => (

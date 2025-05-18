@@ -1,5 +1,6 @@
 import Header from "~/components/homeHeader";
 import { getPostById, getPosts } from "../data/posts";
+import "./welcome.scss";
 import React from "react";
 import ArticleCard from "~/components/ArticleCard";
 import Footer from "~/components/Footer";
@@ -22,7 +23,8 @@ export function Welcome() {
             ))}
         </div>
       </div>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLScUFbGk1K2wa1I8fyTHT6q5zSf0_32kMPz3fvVNC4FgQJiD1g/viewform?usp=header" className="bg-dark-blue text-white w-full max-w-96 p-2.5 font-serif flex justify-center gap-2.5 rounded-sm">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScUFbGk1K2wa1I8fyTHT6q5zSf0_32kMPz3fvVNC4FgQJiD1g/viewform?usp=header"
+        className="bg-dark-blue text-white w-full max-w-96 p-2.5 font-serif flex justify-center gap-2.5 rounded-sm">
         <img src="/feedback.svg" alt="" />
         O que está achando? Nos dê um feedback
       </a>

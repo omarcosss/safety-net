@@ -433,7 +433,7 @@ const posts = [
         "link": "https://www.getapp.com.br/compare/91461/102437/google-calendar/vs/todoist-for-business"
       },
     ]
-  }
+  },
 ]
 
 export function getPosts() {

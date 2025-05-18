@@ -15,8 +15,12 @@ p{
     font-weight: 400;
 }
 img{
-    &.post-image{
+    &.post-image, &.inner-image{
         width: 100%;
+        border-radius: 8px;
+    }
+    &.inner-image{
+        margin-top: 15px;
     }
 }
 .page-content{
@@ -50,4 +54,7 @@ ul{
 }
 li{
     margin: 10px 0;
+}
+hr{
+    color: #005a814D;
 }

@@ -9,6 +9,8 @@ header{
     transition: all ease .3s;
     overflow: hidden;
     height: 150px;
+    border-bottom: 1px solid #9BCADE66;
+    background: #FFF;
     @media (min-width: 768px) {
         height: 220px;
     }
@@ -18,8 +20,6 @@ header{
             height: 90px;
         }
     }
-    border-bottom: 1px solid #9BCADE66;
-    background: #FFF;
     img{
         position: absolute;
 
