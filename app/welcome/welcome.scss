@@ -1,0 +1,9 @@
+.thumbnail{
+    border-radius: 8px;
+}
+// Centraliza o último post caso seja impar
+@media(min-width: 768px) {
+    div.grid > :last-child:nth-child(odd) {
+      transform: translateX(53%);
+    }
+}
